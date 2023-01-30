@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import HeroImage from '../public/assests/HeroImage.jpg'
+import HeroImage from '../public/assests/heroImage.jpg'
 import {MdExpandMore} from 'react-icons/md'
 
 const HomePage = () =>{
