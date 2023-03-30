@@ -38,12 +38,11 @@ function PortFolio() {
   return (
     <div id="portfolio" className="w-full ">
       <div className="max-w-screen-3xl mx-auto px-8 py-16 text-center md:text-left bg-cover bg-center portfolio-img">
-        <h2 className="text-5xl md:text-7xl uppercase tracking-wider text-blue-500 font-bold">
+        <h2 className="text-5xl md:text-7xl uppercase tracking-wider text-black font-bold">
           PortFolio
         </h2>
-        <p className="py-4 max-w-lg ">
-          Des ma sais que exquise courus tous des, nacreux couleurs que vers que
-          jaunes lassé ayant fileur, accroupi parfois sentis.
+        <p className="py-4 text-lg max-w-lg ">
+        Quotes:- “To become successful online, you only need to remember the following : Good Heart + Passion + Web Design + SEO + Digital Marketing + Dedication + Positiveness + Patience = Success”
         </p>
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           {portfolio.map(({ id, title, imageSrc, url }) => (
@@ -64,7 +63,7 @@ function PortFolio() {
         </div>
         <div className="flex items-center justify-center">
         <Link href="/#portfolio">
-      <div className='group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider'>
+      <div className='group flex items-center justify-center my-8 bg-black text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider'>
         all project <span className='-rotate-90 duration-100 ease-in group-hover:translate-x-5'><MdExpandMore size={25}/></span>
       </div>
     </Link>

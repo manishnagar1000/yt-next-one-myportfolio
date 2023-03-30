@@ -45,12 +45,11 @@ function Experience() {
   return (
     <div id="experience" className="w-full ">
       <div className="max-w-screen-3xl mx-auto px-8 py-16 text-center md:text-left experince-img bg-cover  bg-fixed bg-center">
-        <h2 className="text-5xl md:text-7xl uppercase tracking-wider text-blue-500 font-bold">
+        <h2 className="text-5xl md:text-7xl uppercase tracking-wider text-black font-bold">
           experience
         </h2>
         <p className="py-4 max-w-lg">
-          Des ma sais que exquise courus tous des, nacreux couleurs que vers que
-          jaunes lassé ayant fileur, accroupi parfois sentis.
+        I have 2 year of experience in building and desgining software.Currently ,I love to work on web applications using technologies like Javascript, React, Tailwind ,Next Js and Nodejs.
         </p>
         <div className='grid  lg-grid-cols-4 gap-8'>
       {experiences.map(({id,title,src}) =>(
