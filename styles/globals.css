@@ -28,7 +28,7 @@ html{
   ::-webkit-scrollbar-thumb:hover {
     background: #3b82f6; 
   }
-
+/* 
 .custom-img{
     background-image: url("../public/assests/kid.gif");
 }
@@ -44,4 +44,8 @@ html{
 }
 .contact-img{
     background-image: url("../public/assests/contactgif.gif");
+} */
+
+.custom-img{
+  background-image: url("../public/assests/kid.gif");
 }
